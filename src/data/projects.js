@@ -37,7 +37,7 @@ export const projects = [
       "/projects/AI_Battle-Arena/gallery-6.png",
       "/projects/AI_Battle-Arena/gallery-2.png",
       "/projects/AI_Battle-Arena/gallery-7.png",
-      "/projects/AI_Battle-Arena/gallery-3.png",
+      "/projects/AI_Battle-Arena/gallery-3.png"
     ],
     "tags": ["React","TypeScript","Node.js","Express.js","MongoDB","AI","LLM","LangChain","LangGraph","Mistral AI","Google Gemini","Prompt Engineering","Agentic AI","AI Evaluation","Real-Time Streaming","REST API","Tailwind CSS"]
   },
