@@ -22,24 +22,24 @@ export const projects = [
   },
   {
     "id": "2",
-    "slug": "obsidian-ide",
+    "slug": "AI_Battle_Arena",
     "number": "02",
-    "title": "Obsidian IDE",
-    "subtitle": "Cloud-Based IDE with AI Coding Assistant",
-    "category": "Full Stack Development",
-    "year": "2025",
+    "title": "AI Battle Arena",
+    "subtitle": "AI Model Comparison Platform with Intelligent AI Judging",
+    "category": " AI Applications Full Stack Development",
+    "year": "2026",
     "role": "Full Stack Engineer",
-    "description": "A VSCode-inspired cloud IDE running on Kubernetes with an AI agent powered by LangChain and Mistral, real-time SSE streaming, and subdomain-based sandbox routing.",
-    "longDescription": "Obsidian IDE is a microservices-based cloud development environment designed to run isolated coding sandboxes per user. Each sandbox is a Kubernetes pod with a Redis TTL-based lifecycle, auto-destroyed when idle. The AI coding assistant is built on LangChain with Mistral as the LLM, streaming responses to the client via Server-Sent Events. Google OAuth handles authentication with JWT session management. RabbitMQ drives async notifications via Nodemailer, and nginx ingress routes sandbox previews through dynamic subdomains (*.preview.localhost). Skaffold enables hot-rebuild during development.",
-    "coverImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80",
-    "heroImage": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1400&q=80",
+    "description": "AI Battle Arena is an interactive web application where two AI models compete by answering the same user prompt. A third AI model acts as an unbiased judge, evaluating each response for accuracy, reasoning, relevance, and overall quality before declaring the winner.",
+    "longDescription": "AI Battle Arena is a modern AI evaluation platform that enables users to compare the capabilities of different large language models in real time. Users submit a single prompt, which is simultaneously sent to two competing AI models. Once both models generate their responses, a dedicated Judge AI analyzes each answer based on multiple criteria, including factual accuracy, logical reasoning, completeness, clarity, creativity, and relevance. The platform presents both responses side by side along with detailed scoring, strengths, weaknesses, and an explanation of why one model outperformed the other. Built with a modern React frontend and a scalable Node.js backend, AI Battle Arena provides real-time response streaming, battle history, and an intuitive interface for exploring the strengths and limitations of different AI models. It serves as both a practical benchmarking tool for AI enthusiasts and an educational platform for understanding how different language models perform across diverse tasks. ",
+    "coverImage": "/projects/AI_Battle-Arena/cover.png",
+    "heroImage": "/projects/AI_Battle-Arena/gallery-1.png",
     "gallery": [
-      "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&q=80",
-      "https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?w=800&q=80",
-      "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800&q=80",
-      "https://images.unsplash.com/photo-1522252234503-e356532cafd5?w=800&q=80"
+      "/projects/AI_Battle-Arena/gallery-6.png",
+      "/projects/AI_Battle-Arena/gallery-2.png",
+      "/projects/AI_Battle-Arena/gallery-7.png",
+      "/projects/AI_Battle-Arena/gallery-3.png"
     ],
-    "tags": ["Kubernetes", "LangChain", "Mistral AI", "React", "RabbitMQ"]
+    "tags": ["React","TypeScript","Node.js","Express.js","MongoDB","AI","LLM","LangChain","LangGraph","Mistral AI","Google Gemini","Prompt Engineering","Agentic AI","AI Evaluation","Real-Time Streaming","REST API","Tailwind CSS"]
   },
   {
     "id": "3",
@@ -64,22 +64,22 @@ export const projects = [
   },
   {
   "id": "4",
-  "slug": "snitch-store",
+  "slug": "shopstream",
   "number": "04",
-  "title": "Shop Stream",
+  "title": "ShopStream",
   "subtitle": "Modern Fashion E-Commerce Platform with Intelligent Shopping Experience",
   "category": "Full Stack Development",
   "year": "2026",
   "role": "Full Stack MERN Developer",
-  "description": "A premium fashion e-commerce platform inspired by Snitch, featuring seamless shopping, secure authentication, product variants, wishlist, intelligent search, and an optimized user experience.",
-  "longDescription": "Snitch Store is a modern fashion e-commerce platform designed to deliver a fast, scalable, and intuitive shopping experience. Built using the MERN Stack, the application follows a clean architecture with modular backend services and reusable frontend components. Customers can browse products, filter by categories, select size and color variants, manage wishlists and carts, securely authenticate using JWT, and place orders through a responsive interface optimized for all devices.The backend is engineered with MongoDB aggregation pipelines, Redis caching, ImageKit for media management, role-based authorization, input validation, and secure REST APIs. The frontend leverages React.js, Redux Toolkit, Context API, lazy loading, code splitting, and modern UI interactions to provide excellent performance and maintainability. The project demonstrates production-level architecture, scalability, and best practices for building large-scale e-commerce applications.",
-  "coverImage": "/projects/shopstream/shopstream-overImage.png",
-  "heroImage": "/projects/shopstream/shopstream-overImage.png",
+  "description": "A premium fashion e-commerce platform inspired by ShopStream, featuring seamless shopping, secure authentication, product variants, wishlist, intelligent search, and an optimized user experience.",
+  "longDescription": "ShopStream Store is a modern fashion e-commerce platform designed to deliver a fast, scalable, and intuitive shopping experience. Built using the MERN Stack, the application follows a clean architecture with modular backend services and reusable frontend components. Customers can browse products, filter by categories, select size and color variants, manage wishlists and carts, securely authenticate using JWT, and place orders through a responsive interface optimized for all devices.The backend is engineered with MongoDB aggregation pipelines, Redis caching, ImageKit for media management, role-based authorization, input validation, and secure REST APIs. The frontend leverages React.js, Redux Toolkit, Context API, lazy loading, code splitting, and modern UI interactions to provide excellent performance and maintainability. The project demonstrates production-level architecture, scalability, and best practices for building large-scale e-commerce applications.",
+  "coverImage": "/projects/shopstream/cover-pic.png",
+  "heroImage": "/projects/shopstream/Hero-pic.png",
   "gallery": [
-    "/projects/shopstream/gallery-4.png",
     "/projects/shopstream/gallery-2.png",
-    "/projects/shopstream/gallery-3.png",
     "/projects/shopstream/gallery-1.png",
+    "/projects/shopstream/gallery-3.png",
+    "/projects/shopstream/gallery-4.png",
   ],
   "tags": [
     "React.js",
@@ -96,7 +96,7 @@ export const projects = [
     "Context API"
   ],
    "liveUrl": "https://shopstream-js68.onrender.com/",
-    "repoUrl": "https://github.com/St0rmsh/Backend/tree/main/Snitch"
+    "repoUrl": "https://github.com/St0rmsh/ShopStream"
 },
  {
     "id": "5",
