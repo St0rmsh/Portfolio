@@ -52,16 +52,16 @@ export const projects = [
     "role": "Full-Stack Engineer",
     "description": "A YouTube-style video platform with an AI-powered verification pipeline — fact-checking claims, detecting AI-generated content, and scoring trust before a video goes live.",
     "longDescription": "StreamLine is a full-stack video platform built on Express, MongoDB, and Socket.io, with a background processing pipeline that runs every uploaded video through multi-stage AI analysis before publishing. Video is converted and transcoded with ffmpeg, transcribed via AssemblyAI, and cross-checked for factual claims using a LangChain-orchestrated Gemini pipeline grounded with real-time Tavily web search. A lightweight computer-vision heuristic layer (face detection via face-api.js running on a WASM TensorFlow.js backend) flags visual inconsistencies as a supporting signal alongside AI-content detection. Results feed into a fraud-scoring and moderation system that assigns a trust meter, risk level, and auto-moderation flags to each video. Media is delivered through ImageKit with HLS playback on the frontend, and the whole upload flow runs asynchronously with BullMQ and Redis so large files never block the request thread. The React/Vite frontend uses Redux Toolkit for state, Framer Motion for interaction polish, and Socket.io for live studio notifications.",
-    "coverImage": "/projects/streamline/streamline-cover.png",
-    "heroImage": "/projects/streamline/streamLine-hero.png",
+    "coverImage": "/projects/StreamLine/streamline-cover.png",
+    "heroImage": "/projects/StreamLine/streamLine-hero.png",
     "gallery": [
-      "/projects/streamline/gallery-2.png",
-      "/projects/streamline/gallery-3.png",
-      "/projects/streamline/gallery-1.png",
-      "/projects/streamline/gallery-4.png"
+      "/projects/StreamLine/gallery-2.png",
+      "/projects/StreamLine/gallery-3.png",
+      "/projects/StreamLine/gallery-1.png",
+      "/projects/StreamLine/gallery-4.png"
     ],
     "tags": ["Express", "MongoDB", "Redis", "BullMQ", "Socket.io", "LangChain", "Gemini", "ffmpeg", "React"],
-     "liveUrl": "https://streamline-chez.onrender.com/",
+     "liveUrl": "https://streamline-chez.onrender.com",
      "repoUrl": "https://github.com/St0rmsh/StreamLine"
   },
   {
