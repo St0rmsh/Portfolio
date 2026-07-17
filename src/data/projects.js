@@ -43,24 +43,26 @@ export const projects = [
   },
   {
     "id": "3",
-    "slug": "portfolio-v2",
+    "slug": "streamline",
     "number": "03",
-    "title": "Portfolio V2",
-    "subtitle": "Immersive Developer Portfolio with Motion Design",
-    "category": "Frontend Development",
+    "title": "StreamLine",
+    "subtitle": "AI-Verified Video Platform with Trust & Moderation Engine",
+    "category": "Full-Stack Development",
     "year": "2026",
-    "role": "Frontend Engineer & Designer",
-    "description": "A Next.js portfolio with Lenis smooth scrolling, GSAP ScrollTrigger animations, and a custom design system built for maximum visual impact.",
-    "longDescription": "Portfolio V2 is a complete redesign focused on motion-first storytelling. Built with Next.js 14 App Router, it uses Lenis for buttery smooth scrolling wired into GSAP's ticker to eliminate ScrollTrigger conflicts. Every section has a purpose-built scroll animation — parallax heroes, pinned panels, staggered reveals, and horizontal scrolling project showcases. The design system is built entirely with CSS custom properties, with a dark base palette and carefully tuned typographic scale using variable fonts. Performance is a first-class concern with lazy-loaded assets and optimized LCP.",
-    "coverImage": "https://images.unsplash.com/photo-1545239351-cefa43af60f3?w=800&q=80",
-    "heroImage": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=1400&q=80",
+    "role": "Full-Stack Engineer",
+    "description": "A YouTube-style video platform with an AI-powered verification pipeline — fact-checking claims, detecting AI-generated content, and scoring trust before a video goes live.",
+    "longDescription": "StreamLine is a full-stack video platform built on Express, MongoDB, and Socket.io, with a background processing pipeline that runs every uploaded video through multi-stage AI analysis before publishing. Video is converted and transcoded with ffmpeg, transcribed via AssemblyAI, and cross-checked for factual claims using a LangChain-orchestrated Gemini pipeline grounded with real-time Tavily web search. A lightweight computer-vision heuristic layer (face detection via face-api.js running on a WASM TensorFlow.js backend) flags visual inconsistencies as a supporting signal alongside AI-content detection. Results feed into a fraud-scoring and moderation system that assigns a trust meter, risk level, and auto-moderation flags to each video. Media is delivered through ImageKit with HLS playback on the frontend, and the whole upload flow runs asynchronously with BullMQ and Redis so large files never block the request thread. The React/Vite frontend uses Redux Toolkit for state, Framer Motion for interaction polish, and Socket.io for live studio notifications.",
+    "coverImage": "/projects/streamline/streamline-cover.png",
+    "heroImage": "/projects/streamline/streamLine-hero.png",
     "gallery": [
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
-      "https://images.unsplash.com/photo-1558655146-d09347e92766?w=800&q=80",
-      "https://images.unsplash.com/photo-1609921212029-bb5a28e60960?w=800&q=80",
-      "https://images.unsplash.com/photo-1547658719-da2b51169166?w=800&q=80"
+      "/projects/streamline/gallery-2.png",
+      "/projects/streamline/gallery-3.png",
+      "/projects/streamline/gallery-1.png",
+      "/projects/streamline/gallery-4.png"
     ],
-    "tags": ["Next.js", "GSAP", "Lenis", "Framer Motion", "Tailwind CSS"]
+    "tags": ["Express", "MongoDB", "Redis", "BullMQ", "Socket.io", "LangChain", "Gemini", "ffmpeg", "React"],
+     "liveUrl": "https://streamline-chez.onrender.com/",
+     "repoUrl": "https://github.com/St0rmsh/StreamLine"
   },
   {
   "id": "4",
