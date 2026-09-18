@@ -9,28 +9,29 @@ const stack = [
 ]
 
 const building = [
-    {
-        name: 'Streamline',
-        role: 'YouTube-style video platform with AI fact-checking',
-        detail: 'Watches videos alongside you and flags misleading or false claims as they happen, by reading both the visuals and the spoken audio — not just the title or description.',
-        status: 'In progress',
-    },
+   
     {
         name: 'Zentro',
         role: 'Backend infrastructure for modern apps',
         detail: 'Handles auth and account security the way a production SaaS would: OTP email verification, JWT sessions, and expiring codes, all wrapped in a clean, testable backend architecture.',
         status: 'In progress',
     },
+     {
+        name: "AI Battle Arena",
+        role: "AI model benchmarking platform",
+        detail: "An interactive platform where multiple AI models compete on the same prompt in real time. It enables users to compare responses, reasoning, code quality, and performance across models, making it easier to choose the right AI for different use cases.",
+        status: "Shipped",
+    },
     {
+        name: 'Streamline',
+        role: 'YouTube-style video platform with AI fact-checking',
+        detail: 'Watches videos alongside you and flags misleading or false claims as they happen, by reading both the visuals and the spoken audio — not just the title or description.',
+        status: 'Shipped',
+    },
+     {
         name: 'Snitch',
         role: 'Peer-to-peer marketplace app',
         detail: 'Lets anyone become a buyer or seller from the same account, with a dark, glassy interface that feels closer to a members-only drop than a standard storefront.',
-        status: 'In progress',
-    },
-    {
-        name: 'This portfolio',
-        role: 'Personal site',
-        detail: 'Turns scrolling itself into part of the story — text and images reveal in sync with how fast or slow you scroll, instead of just fading in on a timer.',
         status: 'Shipped',
     },
     {

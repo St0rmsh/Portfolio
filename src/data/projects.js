@@ -1,24 +1,49 @@
 export const projects = [
-  {
-    "id": "1",
-    "slug": "zentro-backend",
-    "number": "01",
-    "title": "Zentro",
-    "subtitle": "Scalable Backend Infrastructure for Modern Apps",
-    "category": "Backend Development",
-    "year": "2025",
-    "role": "Backend Engineer",
-    "description": "A production-ready Node.js/Express backend with JWT auth, OTP email verification, and modular three-layer architecture built for scale.",
-    "longDescription": "Zentro is a full-featured backend system engineered for modern SaaS applications. It implements a clean three-layer architecture — controllers, services, and models — keeping business logic decoupled and testable. The auth system supports JWT-based sessions alongside OTP email verification powered by Nodemailer and Gmail SMTP, with MongoDB TTL indexes handling automatic OTP expiry. Dark-themed, table-based transactional email templates ensure visual consistency across all email clients. The API is fully typed with TypeScript and structured for horizontal scaling.",
-    "coverImage": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80",
-    "heroImage": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1400&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&q=80",
-      "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=800&q=80",
-      "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
-      "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?w=800&q=80"
-    ],
-    "tags": ["Node.js", "TypeScript", "MongoDB", "Express", "Nodemailer"]
+ {
+  "id": "1",
+  "slug": "zentro",
+  "number": "01",
+  "title": "Zentro",
+  "subtitle": "Scalable Full-Stack Platform for Modern Applications",
+  "category": "Full-Stack Development",
+  "year": "2026",
+  "role": "Full-Stack Engineer",
+
+  "description": "A production-ready full-stack platform built with React, TypeScript, Node.js, Express, and MongoDB, featuring secure authentication, real-time communication, media management, and a scalable modular architecture.",
+
+  "longDescription": "Zentro is a production-ready full-stack platform engineered to demonstrate how modern web applications can be designed for security, scalability, and maintainability. The frontend is built with React 19, TypeScript, Vite, Tailwind CSS, Redux Toolkit, React Router, Axios, Framer Motion, and Recharts, providing a responsive and highly interactive application experience. The backend is powered by Node.js, Express, TypeScript, and MongoDB, following a modular three-layer architecture that separates controllers, services, and data models. Zentro includes JWT-based authentication with access and refresh tokens, secure session management, OTP-based email verification, password recovery, and OAuth authentication through Google and GitHub. Nodemailer and Gmail SMTP power transactional email workflows, while MongoDB TTL indexes automatically handle OTP expiration. Socket.IO provides real-time communication, Redis supports session and distributed infrastructure requirements, and ImageKit handles media management. The project also incorporates rate limiting, security headers, request validation, automated testing, end-to-end testing, PWA capabilities, and a scalable API structure designed for future feature expansion.",
+
+  "coverImage": "/projects/Zentro/Zentro-logo.png",
+
+  "heroImage": "/projects/Zentro/Zentro-hero.png",
+
+  "gallery": [
+  "/projects/Zentro/Zentro-gallery-1.png",
+  "/projects/Zentro/Zentro-gallery-2.png",
+  "/projects/Zentro/Zentro-gallery-3.png",
+  "/projects/Zentro/Zentro-gallery-4.png",
+  "/projects/Zentro/Zentro-gallery-5.png",
+  "/projects/Zentro/Zentro-gallery-6.png"
+  ],
+
+  "tags": [
+  "React",
+  "TypeScript",
+  "Node.js",
+  "Express",
+  "MongoDB",
+  "Redux Toolkit",
+  "Tailwind CSS",
+  "JWT",
+  "Socket.IO",
+  "Redis",
+  "Nodemailer",
+  "OAuth",
+  "ImageKit"
+  ], 
+
+   "liveUrl": "https://zentro-pwp3.onrender.com",
+    "repoUrl": "https://github.com/St0rmsh/Zentro"
   },
   {
     "id": "2",
@@ -31,7 +56,7 @@ export const projects = [
     "role": "Full Stack Engineer",
     "description": "AI Battle Arena is an interactive web application where two AI models compete by answering the same user prompt. A third AI model acts as an unbiased judge, evaluating each response for accuracy, reasoning, relevance, and overall quality before declaring the winner.",
     "longDescription": "AI Battle Arena is a modern AI evaluation platform that enables users to compare the capabilities of different large language models in real time. Users submit a single prompt, which is simultaneously sent to two competing AI models. Once both models generate their responses, a dedicated Judge AI analyzes each answer based on multiple criteria, including factual accuracy, logical reasoning, completeness, clarity, creativity, and relevance. The platform presents both responses side by side along with detailed scoring, strengths, weaknesses, and an explanation of why one model outperformed the other. Built with a modern React frontend and a scalable Node.js backend, AI Battle Arena provides real-time response streaming, battle history, and an intuitive interface for exploring the strengths and limitations of different AI models. It serves as both a practical benchmarking tool for AI enthusiasts and an educational platform for understanding how different language models perform across diverse tasks. ",
-    "coverImage": "/projects/AI_Battle-Arena/cover.png",
+    "coverImage": "/projects/AI_Battle-Arena/Ai_battle_arena-logo.png",
     "heroImage": "/projects/AI_Battle-Arena/gallery-1.png",
     "gallery": [
       "/projects/AI_Battle-Arena/gallery-6.png",
@@ -39,7 +64,9 @@ export const projects = [
       "/projects/AI_Battle-Arena/gallery-7.png",
       "/projects/AI_Battle-Arena/gallery-3.png"
     ],
-    "tags": ["React","TypeScript","Node.js","Express.js","MongoDB","AI","LLM","LangChain","LangGraph","Mistral AI","Google Gemini","Prompt Engineering","Agentic AI","AI Evaluation","Real-Time Streaming","REST API","Tailwind CSS"]
+    "tags": ["React","TypeScript","Node.js","Express.js","MongoDB","AI","LLM","LangChain","LangGraph","Mistral AI","Google Gemini","Prompt Engineering","Agentic AI","AI Evaluation","Real-Time Streaming","REST API","Tailwind CSS"],
+    "liveUrl": "https://backend-m8c6.onrender.com/",
+     "repoUrl": " https://github.com/St0rmsh/AI_Battle_Arena"
   },
   {
     "id": "3",
@@ -75,7 +102,7 @@ export const projects = [
   "role": "Full Stack MERN Developer",
   "description": "A premium fashion e-commerce platform inspired by ShopStream, featuring seamless shopping, secure authentication, product variants, wishlist, intelligent search, and an optimized user experience.",
   "longDescription": "ShopStream Store is a modern fashion e-commerce platform designed to deliver a fast, scalable, and intuitive shopping experience. Built using the MERN Stack, the application follows a clean architecture with modular backend services and reusable frontend components. Customers can browse products, filter by categories, select size and color variants, manage wishlists and carts, securely authenticate using JWT, and place orders through a responsive interface optimized for all devices.The backend is engineered with MongoDB aggregation pipelines, Redis caching, ImageKit for media management, role-based authorization, input validation, and secure REST APIs. The frontend leverages React.js, Redux Toolkit, Context API, lazy loading, code splitting, and modern UI interactions to provide excellent performance and maintainability. The project demonstrates production-level architecture, scalability, and best practices for building large-scale e-commerce applications.",
-  "coverImage": "/projects/shopstream/cover-pic.png",
+  "coverImage": "/projects/shopstream/ShopStream-logo.png",
   "heroImage": "/projects/shopstream/Hero-pic.png",
   "gallery": [
     "/projects/shopstream/gallery-2.png",
